@@ -1,0 +1,47 @@
+{
+  "name": "js-validators",
+  "version": "0.0.1",
+  "description": "A collection of simple validator functions",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rimraf lib && babel src --out-dir lib",
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m0dch3n/js-validators.git"
+  },
+  "keywords": [
+    "validator",
+    "javascript",
+    "simple"
+  ],
+  "author": "m0dch3n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m0dch3n/js-validators/issues"
+  },
+  "homepage": "https://github.com/m0dch3n/js-validators#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.1",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-browserify": "^5.2.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "rimraf": "^2.6.2"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.isequal": "^4.5.0"
+  }
+}

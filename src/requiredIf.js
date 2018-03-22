@@ -1,0 +1,11 @@
+import {req, ref} from './common'
+let name = 'requiredIf'
+
+export const check = (prop, object) => (value) => {
+  return ref(prop, this, object) ? req(value) : true
+}
+
+export default (prop, object) => ({
+  check: check(prop, object),
+  params: {name, prop}
+})
