@@ -28,6 +28,12 @@ The idea is to have a simple javascript validator collection of checks which are
 * url
 * sameAs
 
+## Installation
+
+``` bash
+npm install 'js-validators' --save
+```
+
 ## Usage
 
 ``` javascript
