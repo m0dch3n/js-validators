@@ -1,5 +1,6 @@
 // Accepts only numerics.
 import {regex} from './common'
+const name = 'numeric'
 const numeric = /^[0-9]*$/
 
 export const check = (value) => {

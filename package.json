@@ -1,6 +1,6 @@
 {
   "name": "js-validators",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of simple validator functions",
   "main": "lib/index.js",
   "scripts": {
