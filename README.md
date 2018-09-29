@@ -1,5 +1,6 @@
 # JS Validators
 
+
 ## Credits
 Credits go to https://github.com/monterail/vuelidate as the functions are taken or inspired from this project, without the vue overhead
 
